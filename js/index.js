@@ -239,7 +239,7 @@ function renderCanvas (canvas, ctx, ctx2, config) {
         ctx.strokeStyle = foregroundColor
         ;(showBoxes === 'true' || showBoxes === 'on') && ctx.stroke()
         // showBoxes && ctx.stroke()
-        ctx.font = `${squareSize * (fontSize / 100)}px 'Space Mono'`
+        ctx.font = `${squareSize * (fontSize / 100)}px 'Major Mono Display'`
         ctx.textBaseline = 'middle'
         ctx.textAlign = 'center'
         ctx[`${textStyle}Text`](text[i], 0, 0)

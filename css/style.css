@@ -26,7 +26,7 @@ body {
   margin: var(--space-md);
   align-items: start;
   justify-content: space-between;
-  font-family: 'Space Mono';
+  font-family: 'Major Mono Display', monospace;
   /* font-family: 'Montserrat'; */
   font-size: 14px;
   line-height: 1.2;
